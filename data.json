@@ -1,0 +1,128 @@
+{
+  "intents": [
+    {
+      "tag": "nouvelles",
+      "patterns": [
+        "Salut, comment comment ça va?",
+        "Bonjour, comment allez-vous?",
+        "Comment vas tu?",
+        "Comment allez vous?",
+        "Hi",
+        "Comment ça va?",
+        "Hello, comment vas tu?",
+        "Comment te portes tu?",
+        "Bonjour, comment vas ta santé?",
+        "Salut, comment ça va?"
+      ],
+      "responses": [
+        "Bonjour, je vais bien, merci de me le demander et vous? Sinon comment puis-je vous aider?",
+        "Salut je vais bien merci et vous? Sinon comment puis-je vous aider?",
+        "Bonjour ça va merci bien et vous, comment allez-vous? Sinon comment puis-je vous aider ?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "nom",
+      "patterns": [
+        "Comment t'appelles-tu",
+        "Quel est votre nom?",
+        "Comment vous appelez-vous?",
+        "C'est quoi votre nom?",
+        "Dis moi ton nom",
+        "Tu t'appelles?",
+        "Vous vous appelez?"
+      ],
+      "responses": [
+        "Je suis IA Hugues Codeur, comment puis-vous aider?",
+        "Je m'appelle IA Hugues Codeur, comment puis-vous être utile?",
+        "Mon nom est IA Hugues Codeur, comment pourrais-je vous aider?",
+        "IA Hugues Codeur, et je suis là pour vous aider!."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "au revoir",
+      "patterns": [
+        "Au revoir",
+        "A plus",
+        "A la prochaine",
+        "Au plaisir d'échanger avec vous",
+        "Au revoir, à la prochaine"
+      ],
+      "responses": [
+        "On se dit à plus",
+        "Ravi d'avoir discuté avec vous, au revoir",
+        "Heureux d'avoir échangé avec vous, à la prochaine"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "merci",
+      "patterns": [
+        "Merci à toi",
+        "Merci",
+        "Merci de m'avoir aidé",
+        "Merci pour ton aide",
+        "Merci pour l'aide"
+      ],
+      "responses": [
+        "Heureux de vous avoir aidé!😇",
+        "Je vous en prie!🤗",
+        "C'est un plaisir pour moi!🫠"
+      ],
+      "context": [""]
+    },
+
+    {
+      "tag": "options",
+      "patterns": [
+        "Comment pouvez-vous m'aider ?",
+        "Ce que vous pouvez faire",
+        "Quelle aide apportez-vous ?",
+        "Comment pouvez-vous m'aider ?",
+        "Quel soutien offrez-vous",
+        "Que savez-vous faire?",
+        "Quel est votre rôle?"
+      ],
+      "responses": [
+        "Je suis l'assistant de Hugues Codeur. Je suis chargé de répondre aux questions concernant Hugues Codeur, vous apportez plus d'infos sur la personne de Hugues Codeur ainsi que sur ces réalisations."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "hugues codeur",
+      "patterns": [
+        "Qui est Hugues Codeur?",
+        "Parle moi de Hugues Codeur",
+        "Que peux-tu me dire sur Hugues Codeur?",
+        "Décrivez moi hugues codeur",
+        "Que devrais-je savoir sur hugues codeur?"
+      ],
+      "responses": [
+        "Hugues Codeur de son vrai nom, Goli Yao Hugues, est un passionné de data, d'intelligence artificielle, de développement informatique en général et de robotique. Il a acquis une solide expérience dans l'application de la science des données pour résoudre des problèmes complexes et dans la création d'applications web et mobiles réactives. Il a également une expertise en analyse de données avec Power BI, transformant ainsi les données brutes en informations précieuses afin d'aider les entreprises à prendre des décisions éclairées. C'est une personne qui est toujours prête à relever de nouveaux défis et donc est constamment à la recherche de nouvelles opportunités pour appliquer ses compétences. N'hésitez pas à le contacter si vous avez un défi intéressant à relever !"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "salutation",
+      "patterns": [
+        "Bonjour",
+        "Salut",
+        "Comment allez-vous?",
+        "Hey",
+        "Hello",
+        "Hi",
+        "Comment ça va?",
+        "Bonjour comment vas tu?"
+      ],
+      "responses": [
+        "Bonjour, comment pourrais-je vous être utile?",
+        "Salut, comment puis-je vous aider?",
+        "Bonjour, comment puis-je vous aider ?"
+      ],
+      "context": [""]
+    }
+
+   
+  ]
+}
